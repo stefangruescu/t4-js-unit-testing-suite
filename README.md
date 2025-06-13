@@ -50,24 +50,24 @@ describe("SubmitButton", () => {
 
 # Diagrama fluxului testelor pentru PasswordField
 
-```mermaid
 graph TD
-  A[Render PasswordField] --> B[Verifică dacă input cu testid "password-input" există]
-  B --> C{Input găsit?}
-  C -- Da --> D[Testează dacă label-ul este afișat corect]
-  C -- Nu --> E[Test eșuat: Inputul nu există]
+A[Render PasswordField] --> B[Verifica daca input cu testid password-input exista]
+B --> C{Input găsit?}
+C -- Da --> D[Testează dacă label-ul este afișat corect]
+C -- Nu --> E[Test eșuat: Inputul nu există]
 
-  A --> F[Test pentru onChange]
-  F --> G[Simulează tastare în input]
-  G --> H[Verifică dacă onChange a fost apelat]
+A --> F[Test pentru onChange]
+F --> G[Simulează tastare în input]
+G --> H[Verifică dacă onChange a fost apelat]
 
-  A --> I[Test pentru toggle vizibilitate]
-  I --> J[Verifică tipul input (password inițial)]
-  J --> K[Simulează click pe butonul toggle]
-  K --> L[Verifică dacă tipul input s-a schimbat în text]
-  L --> M[Simulează click din nou pe toggle]
-  M --> N[Verifică dacă tipul input s-a schimbat înapoi la password]
-```
+A --> I[Test pentru toggle vizibilitate]
+I --> J[Verifică tipul input]
+J --> K[Simulează click pe butonul toggle]
+K --> L[Verifică dacă tipul input s-a schimbat în text]
+L --> M[Simulează click din nou pe toggle]
+M --> N[Verifică dacă tipul input s-a schimbat înapoi la password]
+
+[Link Diagrama](https://mermaid.live/edit#pako:eNqVUs2O2jAQfpWRz4CygQTIoVUXypb9U9WueijhMCQmWJvYkWO3LIgTT7Ev0Zcoh32sTpxCWe2pFyv2fH8zmS1LVMpZxGKZaSxX8DCOJcCH2RcuU67hM1bVT6XTieB5Ood2-x1czr5xLZYiQUiRDiFLayCxYHhlRArlX0q7KfC1qAzOa9VLxx9tp66QHfaVMO93dWVEFRijq49nDyTEcXPY1wZ05rjgedvmUL8DLsXLM5Kj0jwx8xP93jr6R0cH_vJs0UTgvIgqbZPksCeGa9GhJw265NJoC0qOVigz7kQnDnA1-yoKmzdxDFIrmsPvX7Jp2wGvHPDTcSyn2Ec1QFgqMsGS52he2U9f2RuVZTmHH2IjFiIXBk2TZOqw12cGRpTU078I1w5xc541yUXySMqwsEZJQjfqDn7j4LdvEp_JQtVGqJKVKBY067phw9eN2a1j3701S4UEqWxtemZ25-D3_2WGpRL020-7NGctlmmRsojmxFus4LrA-sq2tUXMzIoXPGYRfaaoH2Pa5x1xSpTflSqONK1stmLREvOKbrZMacJjgbT5xelVu8UfKSsNi7pB34mwaMvWdPW8ThBc-IOg5w_C3tDvtdgTi_yu3wm9oR8Mht3uIPT7wa7FNs7X64Rhf-B7YRj0PN_zvIvdH92xLJg)
 
 ## Configurația Hardware
 
