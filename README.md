@@ -85,7 +85,7 @@ Detalii hardware:
 
 Pentru dezvoltarea și testarea proiectului am folosit următoarele versiuni și unelte software:
 
-- **Sistem de operare:** macOS Sequoia (versiunea exactă, dacă o știi, o putem adăuga)
+- **Sistem de operare:** macOS Sequoia
 - **Node.js:** v20.x
 - **npm:** versiunea corespunzătoare Node 20
 - **React:** 19.x
