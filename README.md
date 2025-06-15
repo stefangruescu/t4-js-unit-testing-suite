@@ -79,7 +79,7 @@ Detalii hardware:
 - **Procesor:** Apple M1 Pro, 8-core CPU (6 performanță + 2 eficiență)
 - **Memorie RAM:** 16 GB unificată
 - **Stocare:** SSD 512 GB
-- **Sistem de operare:** macOS Ventura 13.x
+- **Sistem de operare:** macOS Sequoia
 
 ## Configurația Software
 
