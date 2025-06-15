@@ -95,7 +95,7 @@ Pentru dezvoltarea și testarea proiectului am folosit următoarele versiuni și
 - **TypeScript:** 5.x - pentru tipare statice și siguranța codului
 - **Editor:** Visual Studio Code 1.79.x
 
-## Utilizarea sau nu a unei mașini virtuale
+## Utilizarea unei mașini virtuale
 
 Pentru acest proiect nu am folosit o mașină virtuală (VM). Dezvoltarea și testarea s-au realizat direct pe mașina fizică, un MacBook Pro cu procesor Apple M1 Pro.
 
